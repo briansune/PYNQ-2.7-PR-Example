@@ -7,3 +7,5 @@ https://discuss.pynq.io/t/pynq-2-7-dfx-partial-reconfiguration-under-vivado-2020
 Please include the directory to the Vivado IP link.
 
 Make sure you update the device of your BOARD !!!
+
+Enjoy~ =]
