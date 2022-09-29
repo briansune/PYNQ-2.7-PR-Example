@@ -1,0 +1,24 @@
+
+
+================================================================
+== Synthesis Summary Report of 'pr_sub'
+================================================================
++ General Information: 
+    * Date:           Thu Sep 29 12:35:38 2022
+    * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
+    * Project:        pynq_pr_ip2
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z100-ffg900-2
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------+------+-------+---------+--------+----------+---------+------+----------+------+----+----------+----------+-----+
+    |  Modules | Issue|       | Latency | Latency| Iteration|         | Trip |          |      |    |          |          |     |
+    |  & Loops | Type | Slack | (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|    FF    |    LUT   | URAM|
+    +----------+------+-------+---------+--------+----------+---------+------+----------+------+----+----------+----------+-----+
+    |+ pr_sub  |     -|  -5.40|        2|  20.000|         -|        3|     -|        no|     -|   -|  35 (~0%)|  69 (~0%)|    -|
+    +----------+------+-------+---------+--------+----------+---------+------+----------+------+----+----------+----------+-----+
+

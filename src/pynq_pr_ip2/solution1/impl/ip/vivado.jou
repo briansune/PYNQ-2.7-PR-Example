@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Sep 29 13:28:58 2022
+# Process ID: 170320
+# Current directory: G:/20220610_zynq/pynq_pr_example/pynq_pr_ip/pynq_pr_ip2/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: G:/20220610_zynq/pynq_pr_example/pynq_pr_ip/pynq_pr_ip2/solution1/impl/ip/vivado.log
+# Journal file: G:/20220610_zynq/pynq_pr_example/pynq_pr_ip/pynq_pr_ip2/solution1/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

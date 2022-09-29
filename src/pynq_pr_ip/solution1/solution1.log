@@ -1,0 +1,208 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z100ffg900-2 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.024 seconds; current allocated memory: 877.108 MB.
+INFO: [HLS 200-10] Analyzing design file 'pr_add.cpp' ... 
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:20
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:21
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:22
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.658 seconds; current allocated memory: 98.902 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.58 seconds; peak allocated memory: 877.108 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z100ffg900-2 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 877.140 MB.
+INFO: [HLS 200-10] Analyzing design file 'pr_add.cpp' ... 
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:20
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:21
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:22
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.262 seconds; current allocated memory: 98.896 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 3.678 seconds; peak allocated memory: 877.140 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z100ffg900-2 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 877.140 MB.
+INFO: [HLS 200-10] Analyzing design file 'pr_add.cpp' ... 
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:20
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:21
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:22
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.235 seconds; current allocated memory: 98.896 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 3.654 seconds; peak allocated memory: 877.140 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z100ffg900-2 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 877.140 MB.
+INFO: [HLS 200-10] Analyzing design file 'pr_add.cpp' ... 
+WARNING: [HLS 214-140] Array stream parameter 'stream_in' in function 'pr_add' may require the 'volatile' qualifier to prevent the compiler from altering array accesses and/or modifying the desired streaming order: pr_add.cpp:9
+WARNING: [HLS 214-140] Array stream parameter 'stream_out' in function 'pr_add' may require the 'volatile' qualifier to prevent the compiler from altering array accesses and/or modifying the desired streaming order: pr_add.cpp:9
+ERROR: [HLS 214-125] no member named 'read' in 'qdma_axis<32, 0, 0, 0>': pr_add.cpp:17
+ERROR: [HLS 214-125] no member named 'read' in 'qdma_axis<32, 0, 0, 0>': pr_add.cpp:18
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:20
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:21
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:22
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.431 seconds; current allocated memory: 98.823 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 3.841 seconds; peak allocated memory: 877.140 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z100ffg900-2 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 877.140 MB.
+INFO: [HLS 200-10] Analyzing design file 'pr_add.cpp' ... 
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:24
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:25
+ERROR: [HLS 214-124] use of undeclared identifier 'Outbuf': pr_add.cpp:26
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.25 seconds; current allocated memory: 98.833 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 3.667 seconds; peak allocated memory: 877.140 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z100ffg900-2 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.023 seconds; current allocated memory: 877.140 MB.
+INFO: [HLS 200-10] Analyzing design file 'pr_add.cpp' ... 
+ERROR: [HLS 207-3339] no viable overloaded '=': pr_add.cpp:22:8
+INFO: [HLS 207-4373] candidate function not viable: no known conversion from 'hls::stream<qdma_axis<32, 0, 0, 0>, 0>::__STREAM_T__' (aka 'qdma_axis<32UL, 0, 0, 0>') to 'const ap_int<32>' for 1st argument: H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int.h:181:11
+INFO: [HLS 207-4373] candidate function not viable: no known conversion from 'hls::stream<qdma_axis<32, 0, 0, 0>, 0>::__STREAM_T__' (aka 'qdma_axis<32UL, 0, 0, 0>') to 'const volatile ap_int<32> &' for 1st argument: H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int.h:184:49
+INFO: [HLS 207-4373] candidate function not viable: no known conversion from 'hls::stream<qdma_axis<32, 0, 0, 0>, 0>::__STREAM_T__' (aka 'qdma_axis<32UL, 0, 0, 0>') to 'const ap_int<32>' for 1st argument: H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int.h:190:46
+INFO: [HLS 207-4373] candidate function not viable: no known conversion from 'hls::stream<qdma_axis<32, 0, 0, 0>, 0>::__STREAM_T__' (aka 'qdma_axis<32UL, 0, 0, 0>') to 'const volatile ap_int<32> &' for 1st argument: H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int.h:192:46
+ERROR: [HLS 207-3339] no viable overloaded '=': pr_add.cpp:23:8
+INFO: [HLS 207-4373] candidate function not viable: no known conversion from 'hls::stream<qdma_axis<32, 0, 0, 0>, 0>::__STREAM_T__' (aka 'qdma_axis<32UL, 0, 0, 0>') to 'const ap_int<32>' for 1st argument: H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int.h:181:11
+INFO: [HLS 207-4373] candidate function not viable: no known conversion from 'hls::stream<qdma_axis<32, 0, 0, 0>, 0>::__STREAM_T__' (aka 'qdma_axis<32UL, 0, 0, 0>') to 'const volatile ap_int<32> &' for 1st argument: H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int.h:184:49
+INFO: [HLS 207-4373] candidate function not viable: no known conversion from 'hls::stream<qdma_axis<32, 0, 0, 0>, 0>::__STREAM_T__' (aka 'qdma_axis<32UL, 0, 0, 0>') to 'const ap_int<32>' for 1st argument: H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int.h:190:46
+INFO: [HLS 207-4373] candidate function not viable: no known conversion from 'hls::stream<qdma_axis<32, 0, 0, 0>, 0>::__STREAM_T__' (aka 'qdma_axis<32UL, 0, 0, 0>') to 'const volatile ap_int<32> &' for 1st argument: H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int.h:192:46
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 3.416 seconds; current allocated memory: 98.889 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 4.85 seconds; peak allocated memory: 877.140 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z100ffg900-2 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 877.140 MB.
+INFO: [HLS 200-10] Analyzing design file 'pr_add.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.967 seconds; current allocated memory: 98.863 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_strb_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:390:41)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:393:25)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:392:76)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:392:45)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_strb_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:392:25)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:391:39)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:391:23)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:390:59)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<32, true>::RType<32, true>::plus operator+<32, true, 32, true>(ap_int_base<32, true> const&, ap_int_base<32, true> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<32, true>::RType<32, true>::plus operator+<32, true, 32, true>(ap_int_base<32, true> const&, ap_int_base<32, true> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:427)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::qdma_axis(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:400:21)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:404:26)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:403:77)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:403:46)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_strb_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:403:26)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:402:40)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:402:24)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:401:60)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::get_strb_ptr()' into 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' (H:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:401:42)
+INFO: [HLS 214-131] Inlining function 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' into 'pr_add(hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&, hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&)' (pr_add.cpp:23:20)
+INFO: [HLS 214-131] Inlining function 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::write(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' into 'pr_add(hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&, hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&)' (pr_add.cpp:31:13)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::RType<32, true>::plus operator+<32, true, 32, true>(ap_int_base<32, true> const&, ap_int_base<32, true> const&)' into 'pr_add(hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&, hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&)' (pr_add.cpp:28:22)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::operator=(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' into 'pr_add(hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&, hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&)' (pr_add.cpp:25:8)
+INFO: [HLS 214-131] Inlining function 'hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>::read()' into 'pr_add(hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&, hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&)' (pr_add.cpp:25:20)
+INFO: [HLS 214-131] Inlining function 'qdma_axis<32ul, 0ul, 0ul, 0ul>::operator=(qdma_axis<32ul, 0ul, 0ul, 0ul> const&)' into 'pr_add(hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&, hls::stream<qdma_axis<32ul, 0ul, 0ul, 0ul>, 0>&)' (pr_add.cpp:23:8)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.553 seconds; current allocated memory: 100.395 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.017 seconds; current allocated memory: 100.396 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.053 seconds; current allocated memory: 106.756 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 114.773 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 142.962 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 139.696 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'pr_add' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pr_add' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 139.798 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.048 seconds; current allocated memory: 139.934 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pr_add' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'pr_add/stream_in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pr_add/stream_in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pr_add/stream_in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pr_add/stream_out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pr_add/stream_out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pr_add/stream_out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'pr_add' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pr_add'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 140.192 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.969 seconds; current allocated memory: 146.481 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for pr_add.
+INFO: [VLOG 209-307] Generating Verilog RTL for pr_add.
+INFO: [HLS 200-789] **** Estimated Fmax: 527.43 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 8.145 seconds; current allocated memory: 146.584 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 9.563 seconds; peak allocated memory: 877.140 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z100ffg900-2 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file pynq_pr_ip/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 6.018 seconds; current allocated memory: 105.182 MB.
